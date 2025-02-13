@@ -21,6 +21,7 @@
 
 
 (defn init []
+      (println "!!!!!")
       (set! (.-onclick (.getElementById js/document "app")) display-random-card)
       (display-random-card))
 
